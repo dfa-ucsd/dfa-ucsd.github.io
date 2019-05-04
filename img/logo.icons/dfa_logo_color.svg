@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="271px" viewBox="0 0 228 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="53 78.5 21 103.5 31.5 63 0 37 40 36.5 53 0 65.5 36.5 104.5 37.5 74 63 85 103.5"></polygon>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(0.000000, -8.000000)">
+            <polygon id="Fill-35" fill="#2F5187" points="0 279 228 279 228 8 0 8"></polygon>
+            <text id="D" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="130" font-weight="bold" fill="#FFFFFF">
+                <tspan x="22" y="127">D</tspan>
+            </text>
+            <text id="F" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="130" font-weight="bold" fill="#FFFFFF">
+                <tspan x="127" y="127">F</tspan>
+            </text>
+            <text id="A" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="130" font-weight="bold" fill="#FFFFFF">
+                <tspan x="115" y="249">A</tspan>
+            </text>
+            <g id="Group-44" transform="translate(17.000000, 147.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-43"></g>
+                <polygon id="Fill-42" fill="#FCBE2F" mask="url(#mask-2)" points="-5 108.5 109.5 108.5 109.5 -5 -5 -5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
