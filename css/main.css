@@ -17,6 +17,134 @@ a {
   color: black;
 }
 
+/* Background image and overlay */
+.nav-overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.hero-container {
+  margin: auto;
+  width: 90%;
+  max-width: 1180px;
+}
+
+
+/* Nav Menu */
+.nav-menu {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.logo {
+  width: 35px;
+}
+
+.nav-menu h3 {
+  display: inline-block;
+  color: white;
+  padding: 10px 16px;
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+#nav-list {
+  color: white;
+  list-style-type: none;
+  float: right;
+}
+
+.nav-item {
+  float: right;
+  position: relative;
+}
+
+.nav-item a {
+  font-size: 12px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.yellow-selected {
+  position: absolute;
+  top: 40%;
+  background-color: #ffdf00;
+  border-radius: 50px 50px;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+#home .yellow-selected {
+  opacity: 1;
+}
+
+#get-involved {
+  border: 2px solid;
+  border-radius: 100px 100px;
+  margin-left: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.landing-message {
+  width: 700px;
+  margin: 100px auto 0 auto;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
+
+.landing-message h1 {
+  font-family: "playfair";
+  text-align: center;
+  font-size: 2em;
+}
+
+.landing-message p {
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.mouse {
+  color: white;
+  font-size: 11px;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+}
+
+
+.mouse span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  width: 2px;
+  height: 5px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
 /* FOOTER */
 
 footer {
