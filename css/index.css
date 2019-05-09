@@ -17,6 +17,21 @@
   background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/landing2.png");
 }
 
+.nav-menu h3 {
+
+  color: white;
+
+}
+
+#nav-list {
+  color: white;
+
+}
+
+.nav-item a {
+  color: white;
+}
+
 @keyframes scroll {
   0% {
     opacity: 1;
