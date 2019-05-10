@@ -19,7 +19,7 @@
 
     .nav-overlay {
       background-position: left;
-      background-position: cover;
+      background-size: cover;
     }
 
     .logo {
