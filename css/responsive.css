@@ -17,6 +17,11 @@
       padding-top: 50px;
     }
 
+    .nav-overlay {
+      background-position: left;
+      background-position: cover;
+    }
+
     .logo {
       width: 80px;
       align-items: center;
