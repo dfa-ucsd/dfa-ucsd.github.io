@@ -1,0 +1,286 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .landing-message {
+      margin-top: 250px;
+    }
+
+    .landing-message h1{
+      font-size: 4.3em;
+      text-align: center;
+    }
+
+    .landing-message p{
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+
+    .mouse {
+      color: white;
+      font-size: 30px;
+      left: 45%;
+    }
+
+
+    .mouse span {
+      width: 5px;
+      height: 8px;
+    }
+
+    #about-section {
+      width: 80%;
+      max-width: 1180px;
+      margin: auto;
+      height: 100vh;
+    }
+
+    #who {
+      padding-top: 250px;
+      width: 100%;
+      font-family: "playfair";
+      font-size: 3.3em;
+      margin: auto;
+    }
+
+    #who h1 {
+      line-height: 100px;
+    }
+
+    #who p {
+      font-family: 'Lato', sans-serif;
+      font-size: 1em;
+      font-weight: 300;
+      margin-top: 80px;
+      margin-bottom: 30px;
+      line-height: 70px;
+    }
+
+    .button-container {
+      width: 500px;
+    }
+
+    .button-container-1 {
+      width: 360px;
+    }
+
+    .enter-arrow {
+      position: absolute;
+      bottom: 0;
+      width: 100px;
+      height: 100px;
+      background-color: #ffdf00;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+    }
+
+
+    .enter-arrow-1 {
+      position: absolute;
+      bottom: 15px;
+      width: 100px;
+      height: 100px;
+      background-color: #ffdf00;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+    }
+
+    .enter-arrow img {
+      margin-top: 30px;
+      width: 40px;
+    }
+
+    .enter-arrow-1 img {
+      margin-top: 15px;
+      width: 20px;
+    }
+
+    #learn-more {
+      margin-top: 100px;
+    }
+
+    .button-container p {
+      margin-left: 140px;
+    }
+
+    .button-container-1 p {
+      margin-left: 140px;
+    }
+
+    .line-1 {
+      width: 25%;
+      border-bottom: 1px solid;
+      border-color: #D5D5D5;
+      margin-bottom: 5px;
+    }
+
+    .heading-upcoming p {
+      font-size: 32px;
+      width: 50%;
+    }
+
+    .line-2 {
+      width: 25%;
+      border-bottom: 1px solid;
+      border-color: #D5D5D5;
+      margin-bottom: 5px;
+    }
+
+
+
+    .upcoming-events-container {
+      margin-top: 30px;
+      margin-bottom: 200px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .events {
+      width: 100%;
+      height: 1200px;
+      margin-right: 30px;
+      background-color: white;
+      position: relative;
+      margin-bottom: 80px;
+    }
+
+
+    .event-pic {
+      height: 600px;
+      background-color: gray;
+    }
+
+
+    .event-description-container {
+      padding: 40px 32px;
+    }
+
+    .event-description-container .description-tag{
+      font-size: 24px;
+      padding-bottom: 12px;
+      color: #808080;
+      font-weight: 300;
+    }
+
+    .event-description-container h2{
+      font-family: 'playfair';
+      font-size: 3.5em;
+    }
+
+    .event-description {
+      margin-top: 30px;
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    .date-time {
+      font-size: 28px;
+      margin-top: 160px;
+    }
+
+
+    .join-us-container {
+      width: 100%;
+      height: auto;
+      background-color: gray;
+      display: block;
+      margin-bottom: 100px;
+    }
+
+    #join-us-picture {
+      width: 100%;
+      height: 600px;
+      background-color: white;
+      background: url("../img/landing.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    #join-us-right {
+      width: 100%;
+      height: 1000px;
+      background-color: black;
+      color: white;
+      position: relative;
+    }
+
+    #join-us-right-content {
+      padding: 60px 60px;
+    }
+
+    #join-us-right-content h1 {
+      font-size: 4em;
+      font-family: 'playfair';
+      margin-bottom: 20px;
+    }
+
+    #join-us-right-content p {
+      margin-bottom: 20px;
+      font-weight: 300;
+      line-height: 50px;
+      font-size: 2.5em;
+    }
+
+
+    .current-projects-container {
+      margin-top: 60px;
+      height: 450px;
+      overflow: scroll;
+    }
+
+    .current-projects-container ul {
+      list-style-type: none;
+    }
+
+    .project-list a {
+      font-size: 2em;
+    }
+
+}
+
+/* Landscape */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait */
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: landscape) {
+
+}
