@@ -8,6 +8,33 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
+
+    /* Nav Menu */
+    .nav-menu {
+      height: 100px;
+      width: 80%;
+      margin: auto;
+      padding-top: 50px;
+    }
+
+    .logo {
+      width: 80px;
+      align-items: center;
+    }
+
+    .nav-menu h3 {
+      display: inline-block;
+      padding: 10px 16px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 3em;
+      margin-left: 30px;
+    }
+
+    #nav-list {
+      display: none;
+    }
+
     .landing-message {
       margin-top: 250px;
     }
@@ -57,9 +84,9 @@
 
     #who p {
       font-family: 'Lato', sans-serif;
-      font-size: 1em;
+      font-size: 0.7em;
       font-weight: 300;
-      margin-top: 80px;
+      padding-top: 60px;
       margin-bottom: 30px;
       line-height: 70px;
     }
@@ -104,7 +131,7 @@
     }
 
     #learn-more {
-      margin-top: 100px;
+
     }
 
     .button-container p {
@@ -207,14 +234,14 @@
 
     #join-us-right {
       width: 100%;
-      height: 1000px;
+      height: 1400px;
       background-color: black;
       color: white;
       position: relative;
     }
 
     #join-us-right-content {
-      padding: 60px 60px;
+      padding: 120px 60px;
     }
 
     #join-us-right-content h1 {
@@ -232,8 +259,8 @@
 
 
     .current-projects-container {
-      margin-top: 60px;
-      height: 450px;
+      margin-top: 120px;
+      height: 600px;
       overflow: scroll;
     }
 
@@ -243,6 +270,162 @@
 
     .project-list a {
       font-size: 2em;
+    }
+
+
+    .two-way-join-container {
+      display: block;
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    .two-way-join-container h1 {
+      font-family: 'playfair';
+    }
+
+    .two-way-join-container p {
+      font-weight: 300;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      line-height: 25px;
+    }
+
+
+    #join-dfa {
+      width: 100%;
+      padding: 100px 0px 40px 0px;
+      text-align: center;
+    }
+
+    #join-dfa-button {
+      margin-top: 100px;
+      position: relative;
+    }
+
+    #join-dfa-button p{
+      font-size: 2.1em;
+      margin-bottom: 60px;
+    }
+
+    #join-dfa-button img{
+      margin-top: 30px;
+    }
+
+    #join-partner {
+      width: 100%;
+      padding: 100px 0px 40px 0px;
+      text-align: center;
+    }
+
+    #join-partner-button {
+      margin-top: 100px;
+      position: relative;
+    }
+
+    #join-partner-button p{
+      font-size: 2.1em;
+      margin-bottom: 60px;
+    }
+
+    #join-partner-button img{
+      margin-top: 30px;
+    }
+
+    #join-dfa-button .enter-arrow-1 img {
+      width: 40px;
+    }
+
+    #join-partner-button .enter-arrow-1 img {
+      width: 40px;
+    }
+
+    #project-partners-section {
+      background-color: white;
+      width: 80%;
+      max-width: 1180px;
+      height: auto;
+      margin: auto;
+      position: relative;
+      padding: 60px 0px 150px 0px;
+      margin-bottom: 150px;
+    }
+
+    .partners-content {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 3em;
+      font-family: 'playfair';
+      line-height: 50px;
+    }
+    .partners-content span {
+      margin-right: 10px;
+    }
+
+
+
+    /* FOOTER */
+
+    footer {
+      background-color: #333333;
+      color: white;
+    }
+
+    .footer-container {
+      height: auto;
+      width: 90%;
+      margin: auto;
+      padding-top: 50px;
+      font-size: 1.3em;
+      display: block;
+    }
+
+    .footer-container div {
+      width: 100%;
+      margin-right: 20px;
+    }
+
+    footer ul {
+      margin-top: 14px;
+      list-style-type: none;
+    }
+
+    #footer-1 {
+      margin-right: 100px;
+    }
+
+    #footer-4 {
+      margin-right: 0px;
+    }
+
+    #footer-1 h1 {
+      font-family: "playfair";
+      margin-bottom: 30px;
+    }
+
+    #footer-1 p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: justify;
+    }
+
+    .footer-header {
+      color: #688a9e;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+
+    .footer-list {
+      font-size: 14px;
+      font-weight: 300;
+      padding-top: 20px;
+    }
+
+    .footer-list a {
+      color: white;
     }
 
 }
