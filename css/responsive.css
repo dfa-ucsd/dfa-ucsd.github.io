@@ -287,6 +287,7 @@
 
     .two-way-join-container h1 {
       font-family: 'playfair';
+      font-size: 4em;
     }
 
     .two-way-join-container p {
@@ -294,6 +295,7 @@
       margin-top: 30px;
       margin-bottom: 30px;
       line-height: 25px;
+      font-size: 1.3em;
     }
 
 
