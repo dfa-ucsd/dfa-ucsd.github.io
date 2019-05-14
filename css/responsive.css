@@ -9,6 +9,13 @@
   and (orientation: portrait) {
 
 
+    body {
+      -webkit-text-size-adjust: none;
+      -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+
     /* Nav Menu */
     .nav-menu {
       height: 100px;
@@ -61,12 +68,13 @@
       color: white;
       font-size: 30px;
       left: 45%;
+      margin-bottom: 40px;
     }
 
 
     .mouse span {
       width: 5px;
-      height: 8px;
+      height: 12px;
     }
 
     #about-section {
