@@ -14,6 +14,7 @@
       -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
       text-size-adjust: none;
+      text-rendering:optimizeLegibility;
     }
 
     /* Nav Menu */
@@ -55,6 +56,7 @@
     .landing-message h1{
       font-size: 4.3em;
       text-align: center;
+      font-weight: 400;
     }
 
     .landing-message p{
@@ -94,6 +96,8 @@
 
     #who h1 {
       line-height: 100px;
+      font-weight: 400;
+
     }
 
     #who p {
@@ -215,6 +219,8 @@
     .event-description-container h2{
       font-family: 'playfair';
       font-size: 3.5em;
+      font-weight: 400;
+
     }
 
     .event-description {
@@ -262,6 +268,8 @@
       font-size: 4em;
       font-family: 'playfair';
       margin-bottom: 20px;
+      font-weight: 400;
+
     }
 
     #join-us-right-content p {
@@ -297,6 +305,8 @@
     .two-way-join-container h1 {
       font-family: 'playfair';
       font-size: 4em;
+      font-weight: 400;
+
     }
 
     .two-way-join-container p {
@@ -420,6 +430,8 @@
     #footer-1 h1 {
       font-family: "playfair";
       margin-bottom: 30px;
+      font-weight: 400;
+
     }
 
     #footer-1 p {
