@@ -56,7 +56,7 @@
     .landing-message h1{
       font-size: 4.3em;
       text-align: center;
-      font-weight: 400;
+      font-weight: 600;
     }
 
     .landing-message p{
@@ -269,7 +269,6 @@
       font-family: 'playfair';
       margin-bottom: 20px;
       font-weight: 400;
-
     }
 
     #join-us-right-content p {
@@ -291,7 +290,8 @@
     }
 
     .project-list a {
-      font-size: 2em;
+      font-size: 2.7em;
+      margin-bottom: 40px;
     }
 
 
