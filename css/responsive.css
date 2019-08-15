@@ -1,0 +1,499 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+
+    body {
+      -webkit-text-size-adjust: none;
+      -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+      text-size-adjust: none;
+      text-rendering:optimizeLegibility;
+    }
+
+    /* Nav Menu */
+    .nav-menu {
+      height: 100px;
+      width: 80%;
+      margin: auto;
+      padding-top: 50px;
+    }
+
+    .nav-overlay {
+      background-position: left;
+      background-size: cover;
+      background-attachment: scroll;
+    }
+
+    .logo {
+      width: 80px;
+      align-items: center;
+    }
+
+    .nav-menu h3 {
+      display: inline-block;
+      padding: 10px 16px;
+      position: absolute;
+      font-weight: 400;
+      font-size: 3em;
+      margin-left: 30px;
+    }
+
+    #nav-list {
+      display: none;
+    }
+
+    .landing-message {
+      margin-top: 250px;
+    }
+
+    .landing-message h1{
+      font-size: 4.3em;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    .landing-message p{
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+
+    .mouse {
+      color: white;
+      font-size: 30px;
+      left: 45%;
+      margin-bottom: 40px;
+    }
+
+
+    .mouse span {
+      width: 5px;
+      height: 12px;
+    }
+
+    #about-section {
+      width: 80%;
+      max-width: 1180px;
+      margin: auto;
+      height: 100vh;
+    }
+
+    #who {
+      padding-top: 250px;
+      width: 100%;
+      font-family: "playfair";
+      font-size: 3.3em;
+      margin: auto;
+    }
+
+    #who h1 {
+      line-height: 100px;
+      font-weight: 400;
+
+    }
+
+    #who p {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.7em;
+      font-weight: 300;
+      padding-top: 60px;
+      margin-bottom: 30px;
+      line-height: 70px;
+    }
+
+    .button-container {
+      width: 500px;
+    }
+
+    .button-container-1 {
+      width: 360px;
+    }
+
+    .enter-arrow {
+      position: absolute;
+      bottom: 0;
+      width: 100px;
+      height: 100px;
+      background-color: #ffdf00;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+    }
+
+
+    .enter-arrow-1 {
+      position: absolute;
+      bottom: 15px;
+      width: 100px;
+      height: 100px;
+      background-color: #ffdf00;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+    }
+
+    .enter-arrow img {
+      margin-top: 30px;
+      width: 40px;
+    }
+
+    .enter-arrow-1 img {
+      margin-top: 15px;
+      width: 20px;
+    }
+
+    #learn-more {
+
+    }
+
+    .button-container p {
+      margin-left: 140px;
+    }
+
+    .button-container-1 p {
+      margin-left: 140px;
+    }
+
+    .line-1 {
+      width: 25%;
+      border-bottom: 1px solid;
+      border-color: #D5D5D5;
+      margin-bottom: 5px;
+    }
+
+    .heading-upcoming p {
+      font-size: 32px;
+      width: 50%;
+    }
+
+    .line-2 {
+      width: 25%;
+      border-bottom: 1px solid;
+      border-color: #D5D5D5;
+      margin-bottom: 5px;
+    }
+
+
+
+    .upcoming-events-container {
+      margin-top: 30px;
+      margin-bottom: 200px;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .events {
+      width: 100%;
+      height: 1200px;
+      margin-right: 30px;
+      background-color: white;
+      position: relative;
+      margin-bottom: 80px;
+    }
+
+
+    .event-pic {
+      height: 600px;
+      background-color: gray;
+    }
+
+
+    .event-description-container {
+      padding: 40px 32px;
+    }
+
+    .event-description-container .description-tag{
+      font-size: 24px;
+      padding-bottom: 12px;
+      color: #808080;
+      font-weight: 300;
+    }
+
+    .event-description-container h2{
+      font-family: 'playfair';
+      font-size: 3.5em;
+      font-weight: 400;
+
+    }
+
+    .event-description {
+      margin-top: 30px;
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    .date-time {
+      font-size: 28px;
+      margin-top: 160px;
+    }
+
+
+    .join-us-container {
+      width: 100%;
+      height: auto;
+      background-color: gray;
+      display: block;
+      margin-bottom: 100px;
+    }
+
+    #join-us-picture {
+      width: 100%;
+      height: 600px;
+      background-color: white;
+      background: url("../img/landing.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    #join-us-right {
+      width: 100%;
+      height: 1300px;
+      background-color: black;
+      color: white;
+      position: relative;
+    }
+
+    #join-us-right-content {
+      padding: 120px 60px;
+    }
+
+    #join-us-right-content h1 {
+      font-size: 4em;
+      font-family: 'playfair';
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    #join-us-right-content p {
+      margin-bottom: 20px;
+      font-weight: 300;
+      line-height: 50px;
+      font-size: 2.5em;
+      margin-top: 60px;
+    }
+
+
+    .current-projects-container {
+      margin-top: 80px;
+      height: 600px;
+      overflow: scroll;
+    }
+
+    .current-projects-container ul {
+      list-style-type: none;
+    }
+
+    .project-list a {
+      font-size: 2.7em;
+      margin-bottom: 40px;
+    }
+
+
+    .two-way-join-container {
+      display: block;
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    .two-way-join-container h1 {
+      font-family: 'playfair';
+      font-size: 4em;
+      font-weight: 400;
+
+    }
+
+    .two-way-join-container p {
+      font-weight: 300;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      line-height: 50px;
+      font-size: 2.5em;
+    }
+
+
+    #join-dfa {
+      width: 100%;
+      padding: 100px 0px 40px 0px;
+      text-align: center;
+    }
+
+    #join-dfa-button {
+      margin-top: 100px;
+      position: relative;
+    }
+
+    #join-dfa-button p{
+      font-size: 2.1em;
+      margin-bottom: 60px;
+    }
+
+    #join-dfa-button img{
+      margin-top: 30px;
+    }
+
+    #join-partner {
+      width: 100%;
+      padding: 100px 0px 40px 0px;
+      text-align: center;
+    }
+
+    #join-partner-button {
+      margin-top: 100px;
+      position: relative;
+    }
+
+    #join-partner-button p{
+      font-size: 2.1em;
+      margin-bottom: 60px;
+    }
+
+    #join-partner-button img{
+      margin-top: 30px;
+    }
+
+    #join-dfa-button .enter-arrow-1 img {
+      width: 40px;
+    }
+
+    #join-partner-button .enter-arrow-1 img {
+      width: 40px;
+    }
+
+    #project-partners-section {
+      background-color: white;
+      width: 80%;
+      max-width: 1180px;
+      height: auto;
+      margin: auto;
+      position: relative;
+      padding: 60px 0px 150px 0px;
+      margin-bottom: 150px;
+    }
+
+    .partners-content {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 3em;
+      font-family: 'playfair';
+      line-height: 50px;
+    }
+    .partners-content span {
+      margin-right: 10px;
+    }
+
+
+
+    /* FOOTER */
+
+    footer {
+      background-color: #333333;
+      color: white;
+    }
+
+    .footer-container {
+      height: auto;
+      width: 90%;
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 100px;
+      font-size: 2em;
+      display: block;
+    }
+
+    .footer-container div {
+      width: 100%;
+      margin-right: 20px;
+    }
+
+    footer ul {
+      margin-top: 14px;
+      list-style-type: none;
+    }
+
+    #footer-1 {
+      margin-right: 100px;
+    }
+
+    #footer-4 {
+      margin-right: 0px;
+    }
+
+    #footer-1 h1 {
+      font-family: "playfair";
+      margin-bottom: 30px;
+      font-weight: 400;
+
+    }
+
+    #footer-1 p {
+      font-size: 1em;
+      font-weight: 300;
+      text-align: justify;
+    }
+
+    .footer-header {
+      color: #688a9e;
+      font-size: 1em;
+      margin-top: 100px;
+    }
+
+    .footer-list {
+      font-size: 1em;
+      font-weight: 300;
+      padding-top: 50px;
+    }
+
+    .footer-list a {
+      color: white;
+    }
+
+}
+
+/* Landscape */
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait */
+
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+
+@media screen
+
+and (device-width: 360px)
+
+and (device-height: 640px)
+
+and (-webkit-device-pixel-ratio: 3)
+
+and (orientation: landscape) {
+
+}
