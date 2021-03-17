@@ -5,6 +5,11 @@ $(document).ready(function(){
     duration: 1200,
   });
 
+  /* MENU ACTIVE */
+  $(".nav-menu").mouseover(function(){
+    $(".active").find("div").css("opacity", "1");
+  });
+
   /* MENU HOVERS */
   $(".nav-item").hover(function(){
     $(this).find("div").css("opacity", "1");
@@ -19,7 +24,6 @@ $(document).ready(function(){
     $("#get-involved").css("background-color", "transparent");
     $(this).find("a").css("color", "white");
   });
-
 
   /* BUTTON HOVERS */
 

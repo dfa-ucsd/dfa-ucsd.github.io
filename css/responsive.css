@@ -55,16 +55,13 @@
 
     .landing-message h1{
       font-size: 4.3em;
-      text-align: center;
       font-weight: 400;
     }
 
     .landing-message p{
       font-size: 2.5em;
-      text-align: center;
       margin-top: 60px;
     }
-
 
     .mouse {
       color: white;
@@ -72,7 +69,6 @@
       left: 45%;
       margin-bottom: 40px;
     }
-
 
     .mouse span {
       width: 5px;
@@ -113,6 +109,10 @@
       width: 500px;
     }
 
+    .button-container-hero {
+      width: 600px;
+    }
+
     .button-container-1 {
       width: 360px;
     }
@@ -127,6 +127,16 @@
       transition: 0.3s ease-in-out;
     }
 
+    .enter-arrow-hero {
+      position: absolute;
+      bottom: 15px;
+      top: 25px;
+      width: 100px;
+      height: 100px;
+      background-color: #ffdf00;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+    }
 
     .enter-arrow-1 {
       position: absolute;
@@ -136,6 +146,11 @@
       background-color: #ffdf00;
       text-align: center;
       transition: 0.3s ease-in-out;
+    }
+
+    .enter-arrow-hero img {
+      margin-top: 30px;
+      width: 40px;
     }
 
     .enter-arrow img {
@@ -148,15 +163,16 @@
       width: 20px;
     }
 
-    #learn-more {
-
-    }
-
     .button-container p {
       margin-left: 140px;
     }
 
     .button-container-1 p {
+      margin-left: 140px;
+    }
+
+    .button-container-hero p {
+      margin-top: 40px;
       margin-left: 140px;
     }
 
