@@ -14,6 +14,36 @@ html {
   width: 100%;
   height: 100vh;
   position: relative;
+  margin:auto;
+}
+
+.button-container-hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 260px;
+  position: relative;
+  align-content: center;
+}
+
+.enter-arrow-hero {
+  position: absolute;
+  bottom: 15px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffdf00;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.enter-arrow-hero img {
+  margin-top: 15px;
+  width: 20px;
+}
+
+.button-container-hero p {
+  margin-left: 75px;
+  color: #F2F2EE;
 }
 
 
@@ -51,6 +81,8 @@ html {
     transform: translateY(20px);
     }
 }
+
+
 
 
 /****** ABOUT SECTION ********/
@@ -113,6 +145,7 @@ html {
   bottom: 15px;
   width: 50px;
   height: 50px;
+  margin-top: 50px;
   background-color: #ffdf00;
   text-align: center;
   transition: 0.3s ease-in-out;
@@ -174,9 +207,6 @@ html {
   margin-bottom: 5px;
 }
 
-.heading-upcoming h1 {
-
-}
 
 .upcoming-events-container {
   margin-top: 30px;
@@ -323,19 +353,6 @@ ul .project-list {
   border-bottom: 1px solid #688a9e;
 }
 
-/*
-
-.current-projects-container::-webkit-scrollbar {
-  width: 6px;
-}
-
-.current-projects-container::-webkit-scrollbar-thumb {
-  width: 6px;
-  border-radius: 5px;
-  background: #ffdf00;
-}
-
-*/
 
 .project-list {
   padding-top: 20px;

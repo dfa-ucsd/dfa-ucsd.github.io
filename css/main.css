@@ -102,14 +102,14 @@ a {
 
 .landing-message h1 {
   font-family: "playfair";
-  text-align: center;
+  text-align: left;
   font-size: 2em;
 }
 
 .landing-message p {
   margin-top: 25px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 
 .mouse {
