@@ -91,9 +91,19 @@ a {
   transition: 0.3s ease-in-out;
 }
 
+/* landing */
 .landing-message {
   width: 700px;
   margin: 100px auto 0 auto;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  text-align: left;
+}
+
+.landing-message-page {
+  width: 700px;
+  margin: 20px auto 0 auto;
   font-weight: 300;
   font-size: 1.5em;
   color: white;
@@ -106,9 +116,21 @@ a {
   font-size: 2em;
 }
 
+.landing-message-page h1 {
+  font-family: "playfair";
+  text-align: left;
+  font-size: 1.8em;
+}
+
 .landing-message p {
   margin-top: 25px;
   font-size: 18px;
+  text-align: left;
+}
+
+.landing-message-page p {
+  margin-top: 10px;
+  font-size: 16px;
   text-align: left;
 }
 
