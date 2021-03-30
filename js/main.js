@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
   /* Scrolling animation */
   AOS.init({
@@ -6,21 +6,21 @@ $(document).ready(function(){
   });
 
   /* MENU ACTIVE */
-  $(".nav-menu").mouseover(function(){
+  $(".nav-menu").mouseover(function () {
     $(".active").find("div").css("opacity", "1");
   });
 
   /* MENU HOVERS */
-  $(".nav-item").hover(function(){
+  $(".nav-item").hover(function () {
     $(this).find("div").css("opacity", "1");
-  }, function() {
+  }, function () {
     $(this).find("div").css("opacity", "0");
   });
 
-  $("#get-involved").hover(function(){
+  $("#get-involved").hover(function () {
     $("#get-involved").css("background-color", "white");
     $(this).find("a").css("color", "black");
-  }, function() {
+  }, function () {
     $("#get-involved").css("background-color", "transparent");
     $(this).find("a").css("color", "white");
   });
@@ -28,42 +28,42 @@ $(document).ready(function(){
   /* BUTTON HOVERS */
 
   //Yellow button hover
-  $(".button-container").hover(function(){
+  $(".button-container").hover(function () {
     $(this).find("div").css("background-color", "#333333");
-  }, function() {
+  }, function () {
     $(this).find("div").css("background-color", "#ffdf00");
   });
 
   //Arrow hover
-  $(".button-container").hover(function(){
+  $(".button-container").hover(function () {
     $(this).find("img").css("filter", "invert(1) sepia(1)");
-  }, function() {
+  }, function () {
     $(this).find("img").css("filter", "invert(0) sepia(0)");
   });
 
-  $(".button-container-1").hover(function(){
+  $(".button-container-1").hover(function () {
     $(this).find("div").css("background-color", "#333333");
-  }, function() {
+  }, function () {
     $(this).find("div").css("background-color", "#ffdf00");
   });
 
   //Arrow hover
-  $(".button-container-1").hover(function(){
+  $(".button-container-1").hover(function () {
     $(this).find("img").css("filter", "invert(1) sepia(1)");
-  }, function() {
+  }, function () {
     $(this).find("img").css("filter", "invert(0) sepia(0)");
   });
 
-  $(".enter-arrow").hover(function(){
+  $(".enter-arrow").hover(function () {
     $(this).css("background-color", "#333333");
-  }, function() {
+  }, function () {
     $(this).css("background-color", "#ffdf00");
   });
 
   //Arrow hover
-  $(".enter-arrow").hover(function(){
+  $(".enter-arrow").hover(function () {
     $(this).find("img").css("filter", "invert(1) sepia(1)");
-  }, function() {
+  }, function () {
     $(this).find("img").css("filter", "invert(0) sepia(0)");
   });
 
