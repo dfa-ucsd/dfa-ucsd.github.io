@@ -20,13 +20,15 @@ html {
   .dfa-descrip-container {
     background: #2C4F89;
     color: white;
-    padding: 60px;
-    margin-bottom: 5%;
+    display: flex;
+    height: 40vh;
+    margin-bottom: 4%;
   }
 
   .dfa-descrip {
     width:fit-content;
     margin: auto;
+    width: 50%;
   }
   
   .dfa-descrip h1 {
