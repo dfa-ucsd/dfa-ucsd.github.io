@@ -1,0 +1,202 @@
+html {
+  background-color: #F2F2EE;
+}
+
+
+/****** LANDING SECTION ********/
+
+@font-face {
+  font-family: "playfair";
+  src: url("../fonts/playfair/PlayfairDisplay-Regular.ttf");
+}
+
+.landing-container-section {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  margin: auto;
+}
+
+.dfa-descrip-container {
+  background: #2C4F89;
+  color: white;
+  padding: 60px;
+  margin-bottom: 5%;
+}
+
+.dfa-descrip {
+  width: fit-content;
+  margin: auto;
+}
+
+.dfa-descrip h1 {
+  font-size: 1.7em;
+  font-family: "playfair";
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.dfa-descrip p {
+  font-weight: 300;
+}
+
+
+/* Background image and overlay */
+.nav-overlay {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/landing2.png");
+}
+
+.nav-menu h3 {
+  color: white;
+}
+
+#nav-list {
+  color: white;
+}
+
+.nav-item a {
+  color: white;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+}
+
+/******* SECTION DIVIDER ******/
+
+.heading-upcoming {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+
+.line-1 {
+  width: 37.5%;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+  margin-bottom: 5px;
+}
+
+.heading-upcoming p {
+  width: 25%;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+}
+
+.line-2 {
+  width: 37.5%;
+  border-bottom: 1px solid;
+  border-color: #D5D5D5;
+  margin-bottom: 5px;
+}
+
+#heading-partners {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/******* YEAR-LONG PROJECTS *******/
+/******* TO BE DESIGNED PROJECTS *******/
+
+.three-way-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.three-way-container #left,
+.three-way-container #middle,
+.three-way-container #right {
+  width: 30%;
+  padding: 20px 0% 40px 0%;
+  text-align: left;
+}
+
+.three-way-container #left,
+.three-way-container #middle {
+  padding-right: 5%;
+}
+
+#three-way-container img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.three-way-container img {
+  width: 100%;
+}
+
+.three-way-container #text-box {
+  background-color: white;
+  box-shadow: 0px 2.60163px 6.50407px rgba(0, 0, 0, 0.25);
+}
+
+.three-way-container h3 {
+  font-family: "playfair";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 15px;
+}
+
+.three-way-container #text-box p {
+  font-family: "lato";
+  font-weight: 400;
+  line-height: 12.5px;
+  padding: 0px 15px 15px 15px;
+}
+
+.three-way-container #description {
+  font-size: 10px;
+  color: black;
+}
+
+.three-way-container #team {
+  font-size: 10px;
+  color: #929292;
+}
+
+/******* LEADERSHIP TEAM *******/
+
+.five-way-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.five-way-container #far-left,
+.five-way-container #left,
+.five-way-container #middle,
+.five-way-container #right,
+.five-way-container #far-right {
+  width: 20%;
+  padding: 20px 0% 40px 0%;
+  text-align: center;
+}
+
+.five-way-container img {
+  width: 70%;
+}
+
+.five-way-container h3 {
+  font-family: "lato";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+}
