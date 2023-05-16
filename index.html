@@ -1,383 +1,243 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design for America at UC San Diego</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    
+
+    <!-- Favicons -->
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-      rel="stylesheet"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
     />
     <link
-      rel="stylesheet"
-      href="css/font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/2022-2023/DFA_UCSan Diego Banner 1.png"
     />
+
+    <!-- Animate CSS CDN -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      
     />
+    <title>UCSD Design For America | Home</title>
 
-    <!-- JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,200" />    
+     
 
-    <!-- On scroll animations from: http://michalsnik.github.io/aos/ -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
   </head>
-  <body>
-    <!-- container of the main page -->
-    <div class="container">
-      <!-- SECTION: Hero landing -->
-      <section class="landing-container-section">
-        <!-- background image and dark overlay -->
-        <div class="nav-overlay">
-          <!-- contains content of hero landing -->
-          <div class="hero-container">
-            <!-- navigation menu -->
-            <header class="nav-menu" id="menuToggle">
-              <img
-                src="img/logo.icons/dfa-logo-white-80x90.png"
-                alt=""
-                class="logo"
-              />
-              <h3>Design for America at UCSD</h3>
 
-              <ul id="nav-list">
-                <li class="nav-item" id="get-involved">
-                  <a href="get-involved.html">GET INVOLVED</a>
-                </li>
-                <li class="nav-item">
-                  <div class="yellow-selected"></div>
-                   <a href="about-us.html">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                  <div class="yellow-selected"></div>
-                  <a href="past-projects.html">PAST PROJECTS</a>
-                </li>
-                <li class="nav-item">
-                  <div class="yellow-selected"></div>
-                  <a href="meet-the-teams.html">MEET THE TEAMS</a>
-                </li>
-                <li class="nav-item active">
-                  <div class="yellow-selected"></div>
-                  <a href="index.html">HOME</a>
-                </li>
-              </ul>
-            </header>
-            <div class="landing-message" data-aos="fade-right">
-              <h1>A Design Community Dedicated to Social Impact</h1>
-              <p>
-                We help the local San Diego community using the human
-                centered-design process
-              </p>
-              <br>
-              <div>
-                <a href="get-involved.html" data-aos="fade-right">
-                  <div class="button-container-hero">
-                    <div class="enter-arrow-hero">
-                      <img
-                        src="fonts/right-arrow-forward.svg"
-                        alt=""
-                        class="svg"
-                      />
-                    </div>
-                    <p class="get-involved">GET INVOLVED</p>
-                  </div>
-                </a>
-              </div>
-            </div>
 
-            <div class="side-nav"></div>
+    <!-- Navbar -->
+
+
+
+    <nav class="indexnav">
+      <a href="./index.html"><img class = "logo" src="./img/2022-2023/dfaucsdlogolarge.png"> </a>
+      <!---->
+
+        <ul class="navigation">
+            
+            <li><a class = "active" href="./index.html" >Home</a></li>
+            <li><a href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+          <li><div class ="nav-button">
+            <a href="https://beacons.ai/dfaucsd" style="color: black;">JOIN </a>
           </div>
-
-          <!-- Scroll indicator -->
-          <div class="mouse-container">
-            <div class="mouse">
-              <p>SCROLL</p>
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- SECTION: ABOUT -->
-
-      <section id="about-section">
-        <div class="heading-upcoming" id="heading-partners">
-          <span class="line-1"></span>
-            <p>ABOUT US</p>
-          <span class="line-2"></span>
-        </div>
- 
-        <div class="dfa-descrip"id="who">
-          <div  data-aos="fade-right">
-            <h1>
-              <!-- Hey there! This site is still under construction, but please 
-              take a look at our Facebook page for the latest info! -->
-              We’re a group of social innovators and problem solvers using
-              design thinking for social good.
-            </h1>
-            <p class="">              
-              We design people-centered products, services, and experiences to
-              tackle local challenges. ​ Our studio aims to build a community of
-              interdisciplinary students of all majors who fully embraces the
-              Human-Centered Design process.
-              </p>
-          </div>
-          <a href="#">
-            <div class="button-container" data-aos="fade-right">
-              <div class="enter-arrow">
-                <img src="fonts/right-arrow-forward.svg" alt="" class="svg" />
-              </div>
-              <a href="https://www.facebook.com/dfaucsd/"
-                ><p class="learn-more">LEARN MORE</p></a
-              >
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <!-- SECTION: UPCOMING EVENTS -->
-
-      <!-- <section id="upcoming-section">
-        <div class="heading-upcoming">
-          <div class="line-1"></div>
-          <p>PAST EVENTS</p>
-          <div class="line-2"></div>
-        </div>
-
-        <div class="upcoming-events-container">
-          <div class="events" id="event1">
-            <div class="event-pic" id="event-pic-1"></div>
-            <div class="event-description-container">
-              <p class="description-tag">DESIGN SPRINT</p>
-              <h2>Design Sprint: Education Equity</h2>
-              <p class="event-description">
-                We're partnering with Learning Equality for a design sprint
-                about educational equality
-              </p>
-              <p class="date-time">Tuesday, Jan. 8, 6:30 PM</p>
-            </div>
-            <div class="enter-arrow description-arrow">
-              <img src="fonts/right-arrow-forward.svg" alt="" class="svg" />
-            </div>
-          </div>
-          <div class="events" id="event2">
-            <div class="event-pic" id="event-pic-2"></div>
-            <div class="event-description-container">
-              <p class="description-tag">DESIGN PERSPECTIVES</p>
-              <h2>Brandon Reynante from Stanford</h2>
-              <p class="event-description">
-                We're partnering with Learning Equality for a design sprint
-                about educational equality
-              </p>
-              <p class="date-time">Tuesday, Jan. 8, 6:30 PM</p>
-            </div>
-            <div class="enter-arrow description-arrow">
-              <img src="fonts/right-arrow-forward.svg" alt="" class="svg" />
-            </div>
-          </div>
-          <div class="events" id="event3">
-            <div class="event-pic" id="event-pic-3"></div>
-            <div class="event-description-container">
-              <p class="description-tag">DESIGN PERSPECTIVES</p>
-              <h2>Freshform Experience Design Team</h2>
-              <p class="event-description">
-                We're partnering with Learning Equality for a design sprint
-                about educational equality
-              </p>
-              <p class="date-time">Tuesday, Jan. 8, 6:30 PM</p>
-            </div>
-            <div class="enter-arrow description-arrow">
-              <img src="fonts/right-arrow-forward.svg" alt="" class="svg" />
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- SECTION: JOIN US -->
-
-      <!-- <section id="join-us-section">
-        <div class="join-us-heading">
-          <div class="heading-upcoming">
-            <div class="line-1"></div>
-            <p>JOIN US</p>
-            <div class="line-2"></div>
-          </div>
-        </div> -->
-
-        <!-- Picture with the join us description -->
-        <!-- <div class="join-us-container">
-          <div id="join-us-picture"></div>
-          <div id="join-us-right">
-            <div id="join-us-right-content">
-              <div data-aos="fade-right">
-                <h1>Design for Impact</h1>
-                <p>
-                  Design for America is an idea incubator, a motivated
-                  community, and a way of approaching complicated challenges.
-                  DFA shapes the next generation of social innovators. Take a
-                  look at current projects we're working on:
-                </p>
-              </div>
-              <div class="current-projects-container" data-aos="fade-right">
-                <ul>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Seniors with Alzheimers</a>
-                  </li>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Students with Disabilities</a>
-                  </li>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Student Housing Insecurity</a>
-                  </li>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Education</a>
-                  </li>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Medical Accessibility in TJ</a>
-                  </li>
-                  <li class="project-list">
-                    <i class="fas fa-caret-right"></i
-                    ><a href="#">Design for Mental Wellness</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <!-- Two columns for joinging: Join the DFAmily and community -->
-        <!-- <div class="two-way-join-container">
-          <div id="join-dfa" data-aos="fade-right">
-            <h1>Join the DFAmily</h1>
-            <p>
-              Empower the community through Human Centered Design. Join our team
-              during fall quarter of every year or contact us for more details.
-            </p>
-            <div id="join-dfa-button">
-              <a href="#">
-                <div class="button-container-1">
-                  <div class="enter-arrow-1">
-                    <img
-                      src="fonts/right-arrow-forward.svg"
-                      alt=""
-                      class="svg"
-                    />
-                  </div>
-                  <p class="learn-more">LEARN MORE</p>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div id="join-partner" data-aos="fade-right">
-            <h1>Partner With Us</h1>
-            <p>
-              We're a community of designers dedicated to social impact. We work
-              with organizations and partners that will help the local San Diego
-              community with us.
-            </p>
-            <div id="join-partner-button">
-              <a href="#">
-                <div class="button-container-1">
-                  <div class="enter-arrow-1">
-                    <img
-                      src="fonts/right-arrow-forward.svg"
-                      alt=""
-                      class="svg"
-                    />
-                  </div>
-                  <p class="learn-more">LEARN MORE</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- SECTION: COMMUNITY PARTNERS -->
-
-      <!-- <section id="project-partners-section">
-        <div class="heading-upcoming" id="heading-partners">
-          <div class="line-1"></div>
-          <p>COMMUNITY PARTNERS</p>
-          <div class="line-2"></div>
-        </div>
-        <div class="partners-content">
-          <p>
-            <span>Triton Software Engineering </span
-            ><span>International Health Collective </span><span>The Hub </span>
-          </p>
-        </div>
-      </section>
-    </div> -->
-    <!-- End of Content -->
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer-container">
-        <div id="footer-1">
-          <h1>Get in Touch.</h1>
-          <p>
-            DFA is a student-run organization at UC San Diego that focuses on
-            solving issues impacting the San Diego community through
-            human-centered design. Check us out!
-          </p>
-        </div>
-        <div id="footer-2">
-          <p class="footer-header">NAVIGATION</p>
-          <ul>
-            <li class="footer-list"><a href="#">Home</a></li>
-            <li class="footer-list"><a href="#">Meet the teams</a></li>
-            <li class="footer-list"><a href="#">Leadership</a></li>
-            <li class="footer-list"><a href="#">Past projects</a></li>
-            <li class="footer-list"><a href="#">Events</a></li>
-            <li class="footer-list"><a href="#">Get Involved</a></li>
-          </ul>
-        </div>
-        <div id="footer-3">
-          <p class="footer-header">CONTACT US</p>
-          <ul>
-            <li class="footer-list">
-              <a href="ucsd@designforamerica.com">ucsd@designforamerica.com</a>
             </li>
-            <li class="footer-list">
-              <a
-                href="https://m.me/dfaucsd?fbclid=IwAR1LHCl4LU-oz1_3Z-DmGvuOT27ILK6WRhZaS7idXW9UheO1xcJWqvZ6wtY"
-                >Messenger</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div id="footer-4">
-          <p class="footer-header">FOLLOW US HERE</p>
-          <ul>
-            <li class="footer-list">
-              <a href="https://www.facebook.com/dfaucsd/">Facebook</a>
-            </li>
-            <li class="footer-list">
-              <a href="https://www.instagram.com/dfa.ucsd/">Instagram</a>
-            </li>
-            <li class="footer-list">
-              <a href="https://medium.com/@ucsddfa">Medium</a>
-            </li>
-          </ul>
-        </div>
+        </ul>
+           <!-- Hamburger Menu for mobile -->
+        <button class="burger-menu" id="burger-menu">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+          </button>
+
+          <script>// Nav hamburgerburger selections
+
+            const burger = document.querySelector("#burger-menu");
+            const ul = document.querySelector("nav ul");
+            const nav = document.querySelector("nav");
+
+            burger.addEventListener("click", () => {
+            ul.classList.toggle("show");
+            });
+
+            // Close hamburger menu when a link is clicked
+
+            // Select nav links
+            const navLink = document.querySelectorAll(".nav-link");
+
+            navLink.forEach((link) =>
+            link.addEventListener("click", () => {
+                ul.classList.remove("show");
+            })
+            );
+            </script>      
+            
+        
+            
+    </nav>
+
+
+    <div class="nav-curve">
+        <img src="./img/2022-2023/Rectangle 3.svg">
       </div>
-    </footer>
-  </body>
-</html>
+
+
+
+<body style="background-color: #1D2E5C;">
+    <!--Outer Shell-->
+    <div class="hero">
+
+
+
+            <!-- Wrapper for content - used for margin-->
+        <div class="hero-content">  
+
+            <object data="./img/2022-2023/Star 1.svg" width="65px" height="65px" class="vector1"> </object>
+
+            <h1>A community of Designers at UC San Diego dedicated to social impact</h1>
+
+
+            <h3> We help identify and solve problems in the local San Diego community using the human centered-design process</h3>
+            
+
+            <a href="https://beacons.ai/dfaucsd">
+                
+            <div class="primaryactionbutton">
+                <span class="material-symbols-outlined">
+                    north_west
+                    </span>
+           Get involved
+            </div></a>
+
+        </div>
+
+
+
+        <object data="./img/2022-2023/Vector 2.svg" width="580px" height="281px" class="vector2"> </object>
+    </div>
+
+   <!-- <div class="colorwrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1D2E5C" fill-opacity="1" d="M0,224L80,208C160,192,320,160,480,138.7C640,117,800,107,960,112C1120,117,1280,139,1360,149.3L1440,160L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+    </div>-->
+
+    <div class="colorwrapper">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,133 0,133 C 138.40000000000003,150.6 276.80000000000007,168.2 442,154 C 607.1999999999999,139.8 799.2,93.8 970,85 C 1140.8,76.2 1290.4,104.6 1440,133 C 1440,133 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#1d2e5c" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><path d="M 0,400 C 0,400 0,266 0,266 C 190.53333333333336,269.2 381.0666666666667,272.4 529,261 C 676.9333333333333,249.6 782.2666666666667,223.6 927,222 C 1071.7333333333333,220.4 1255.8666666666668,243.2 1440,266 C 1440,266 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#1d2e5c" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg>
+
+    </div>
+    <!-- Content for home page -->
+
+    <div class="colorwrapper">
+
+        <div class="wrapper">
+            <div class="row">
+                <div class="column">
+                    <h4>Programs</h4>
+                    <p>We have two main programs that we offer, Year Long and To Be Designed.
+
+                        <br><br>Both programs offer you an opportunity to create real solutions to real problems, and make a difference in your community.
+                        
+                        <br><br><div class="accent">
+                            Not currently recruiting :(
+                                <br>Check back in Fall 2023!
+                        </div></p>
+                </div>
+
+                <div class="column">
+                    <h4>About Us</h4>
+                    <p>DFA at UC San Diego is a part of the Design for America National Network, helping local communities around the US.
+
+                        <br><br>We’re a group of social innovators and problem solvers using design thinking for social good.</p>
+                        <a href="./about.html" class="text-link">Learn More <span class="material-symbols-outlined" style="vertical-align:bottom; padding-top: 16px;">
+                            arrow_forward
+                            </span></a>
+                        
+                </div>
+
+            </div>
+            <div class="widthrow">
+                <h4>Current Year Long projects</h4>
+                <p>A look at some of the cool things that some of our members are currently up to.</p>
+            </div>
+
+            <div class="projectrow">
+                <div class="project">
+                    <img src="./img/2022-2023/Listening Hearts Logo.png">
+                    <div class="projectdetails">
+                    <h5>Listening Hearts</h5>
+                    <p>Tackling student houselessness in the SD</p>
+                </div>
+                </div>
+
+                <div class="project">
+                    <img src="./img/2022-2023/Untitled_Artwork 2.png">
+                    <div class="projectdetails">
+                        <h5>Food Insecurity</h5>
+                        <p>Addressing food shortages in college populations</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="./img/2022-2023//UCSD-nutrition-tool-kit.jpeg">
+                    <div class="projectdetails">
+                    <h5>Listening Hearts</h5>
+                    <p>Finding solutions to a  mental health crisis.</p>
+                </div>
+                </div>
+
+
+            </div>
+
+            <a href="./projects.html" class="text-link">See all projects <span class="material-symbols-outlined" style="vertical-align:bottom; padding-top: 16px;">
+                arrow_forward
+                </span></a>
+            
+        </div>
+
+    </div>
+    
+</body>
+
+<div class="colorwrapper">
+    <footer>
+        <div class="row">
+        <div class="column">
+            <h4>Get in touch.</h4>
+            <p>Follow us on social media to stay in the loop. Email us to get in touch directly, and keep in tabs with the website to know when recruiting might be next!  </p>
+        </div>
+
+        <div class="column" style="text-align:center; padding: 24px;">
+            <a href="mailto:ucsd@designforamerica.com"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7L4 8v10h16V8l-8 5Zm0-2l8-5H4l8 5ZM4 8V6v12V8Z"/></svg></a>
+            <a href ="https://www.instagram.com/dfa.ucsd/?hl=en"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+            <a href ="https://www.facebook.com/dfaucsd/"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
+
+
+        </div>
+        
+    </div>
+    <br><br> <p class="copyright">©Design for America, University of California, San Diego, 2023</p>
+
+
+</div>
+
+
+
+
+
+</footer>

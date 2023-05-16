@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/2022-2023/DFA_UCSan Diego Banner 1.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      
+    />
+    <title>UCSD Design For America | Home</title>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,200" />    
+
+   
+     
+  </head>
+
+
+    <!-- Navbar -->
+
+
+
+    <nav class="indexnav">
+      <a href="./index.html"><img class = "logo" src="./img/2022-2023/dfaucsdlogolarge.png"> </a>
+      <!---->
+
+        <ul class="navigation">
+            
+            <li><a  href="./index.html" >Home</a></li>
+            <li><a class = "active" href="./projects.html" class="nav-link">Projects</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+          <li><div class ="nav-button">
+            <a href="https://beacons.ai/dfaucsd" style="color: black;">JOIN </a>
+          </div>
+            </li>
+        </ul>
+           <!-- Hamburger Menu for mobile -->
+           <button class="burger-menu" id="burger-menu">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+          </button>
+
+          <script>// Nav hamburgerburger selections
+
+            const burger = document.querySelector("#burger-menu");
+            const ul = document.querySelector("nav ul");
+            const nav = document.querySelector("nav");
+
+            burger.addEventListener("click", () => {
+            ul.classList.toggle("show");
+            });
+
+            // Close hamburger menu when a link is clicked
+
+            // Select nav links
+            const navLink = document.querySelectorAll(".nav-link");
+
+            navLink.forEach((link) =>
+            link.addEventListener("click", () => {
+                ul.classList.remove("show");
+            })
+            );
+            </script>      
+            
+        
+    </nav>
+    <div class="nav-curve-nonhome">
+        <img src="./img/2022-2023/Rectangle 3.svg">
+      </div>
+
+<body style="background-color: white;">
+    <div class="colorwrapper">
+        <div class="wrapper">
+            <div class="about-projects">
+                <h2>Sneak peeks into what we are up to</h2>
+                <p>Check out the latest projects from our group of bright undergraduates</p>
+            </div>
+        
+
+
+        <div class="project-container">
+            <div class="project-row">
+                <div class="projectcard">
+                    <img src="./img/2022-2023/Listening Hearts Logo.png">'
+                    <h3>Listening Hearts</h3>
+                    <p>Tackling student houselessness in the SD
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Esther Liu (Lead)</li>
+                            <li>Azzaya Munkhbat (Lead)</li>
+                            <li>Emily Jao</li>
+                            <li>Frances Sy</li>
+                            <li>Emily Yu</li>
+                            <li>Calvin Cheung</li>
+                            <li>Winston Jeffries</li>
+                        </ul>
+                    </p>
+                    <div class="statuschipo">
+                        Ongoing
+                      </div>
+        
+                  </div>
+
+                  <div class="projectcard">
+                    <img src="./img/2022-2023/UCSD-nutrition-tool-kit.jpeg">'
+                    <h3>Food Insecurity </h3>
+                    <p>Addressing food shortages in college populations
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Melina Cruz (Lead)</li>
+                            <li>Steven Molotnikov (Lead)</li>
+                            <li>Annie Ye</li>
+                            <li>Allison Tang</li>
+                            <li>Sujana Nagasuri</li>
+                            <li>Nayeli Trejo</li>
+                        </ul>
+                    </p>
+                    <div class="statuschipo">
+                        Ongoing
+                      </div>
+        
+                  </div>
+
+
+            </div>
+
+            <div class="project-row">
+                <div class="projectcard">
+                    <img src="./img/2022-2023/Untitled_Artwork 2.png">'
+                    <h3>Mental Health</h3>
+                    <p>Finding solutions to a  mental health crisis.
+
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Cindy Peng (Lead)</li>
+                            <li>Reyna Yang (Lead) </li>
+                            <li>Ryan Fordham</li>
+                            <li>Castalia Chiu/li>
+                            <li>Verenice Prado</li>
+                           
+                        </ul>
+                    </p>
+                    <div class="statuschipo">
+                        Ongoing
+                      </div>
+        
+                  </div>
+
+                  <div class="projectcard">
+                    <img src="./img/2022-2023/Screen Shot 2023-03-30 at 4.50.40 PM.png">'
+                    <h3>COVID-19 Revival </h3>
+                    <p>Helping small business rebound from COVID
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Ishaan Bose (Lead)</li>
+                            <li>Sam Fleet (Lead)</li>
+                            <li>Elise Ngo</li>
+                            <li>Harshini Ramaswamy</li>
+                            <li>Ashlyn Mahoney</li>
+                            <li>Yumei Feng</li>
+                        </ul>
+                    </p>
+                    <div class="statuschippast">
+                        Past
+                      </div>
+        
+                  </div>
+
+
+            </div>
+
+            <div class="project-row">
+                <div class="projectcard">
+                    <img src="./img/2022-2023/gmpi stem.webp">'
+                    <h3>GMP in STEM</h3>
+                    <p>Creating safe spaces for gender marginalized people in STEM
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Hilya Khalil (Lead)</li>
+                            <li>Shimika Basuroy (Lead)</li>
+                            <li>Jodie Li</li>
+                            <li>Eugina Palen</li>
+                            <li>Katherine Lobovski</li>
+                            <li>Priscilla Romero</li>
+                        </ul>
+                    </p>
+                    <div class="statuschippast">
+                        Past
+                      </div>
+        
+                  </div>
+
+                  <div class="projectcard">
+                    <img src="./img/2022-2023/Design for TJ.jpeg">'
+                    <h3>Mental Wellness
+                    </h3>
+                    <p>Encouraging more open dialogue, healthy coping mechanisms, and better utilization of on campus resources for students under intense academic pressure
+
+                        <br><br>Members:
+                        <ul>
+                            <li>Andres Baez</li>
+                            <li>Kylee Peng</li>
+                            <li>Marjorie Tolentino</li>
+                            <li>Jaclyn Chin</li>
+                            <li>Brittany Chen</li>
+                        </ul>
+                    </p>
+                    <div class="statuschippast">
+                        Past
+                      </div>
+        
+                  </div>
+
+
+            </div>
+
+
+        </div>
+   
+    </div>
+    </div>
+</body>
+
+<div class="colorwrapper">
+    <footer>
+        <div class="row">
+        <div class="column">
+            <h4>Get in touch.</h4>
+            <p>Follow us on social media to stay in the loop. Email us to get in touch directly, and keep in tabs with the website to know when recruiting might be next!  </p>
+        </div>
+
+        <div class="column" style="text-align:center; padding: 24px;">
+            <a href="mailto:ucsd@designforamerica.com"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7L4 8v10h16V8l-8 5Zm0-2l8-5H4l8 5ZM4 8V6v12V8Z"/></svg></a>
+            <a href ="https://www.instagram.com/dfa.ucsd/?hl=en"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/></svg></a>
+            <a href ="https://www.facebook.com/dfaucsd/"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
+
+
+        </div>
+    </div>
+
+    <br><br> <p class="copyright">©Design for America, University of California, San Diego, 2023</p>
+</div>
+
+
+
+</footer>
+
